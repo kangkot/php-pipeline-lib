@@ -1,0 +1,30 @@
+{
+    "name": "phppro/php-pipeline-lib",
+    "description": "PHPPRO Pipeline Lib",
+    "require": {
+        "phppro/php-common-lib": "dev-master"
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olivier Hoareau",
+            "email": "olivier@phppro.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    },
+    "suggests": {
+    },
+    "config": {
+        "bin-dir": "bin",
+        "process-timeout": 900
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
