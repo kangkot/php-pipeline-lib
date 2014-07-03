@@ -4,9 +4,45 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4e8e3fa3ef0ef5733bd1b5336a300652",
+    "hash": "3f1e29962d8f00585c9f323142f7e79b",
     "packages": [
-
+        {
+            "name": "phppro/common-lib",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phppro/php-common-lib.git",
+                "reference": "80a796ccc907a9137da23b9cba20779762ca657c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phppro/php-common-lib/zipball/80a796ccc907a9137da23b9cba20779762ca657c",
+                "reference": "80a796ccc907a9137da23b9cba20779762ca657c",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*",
+                "tecnick.com/tcpdf": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Hoareau",
+                    "email": "olivier@phppro.fr"
+                }
+            ],
+            "description": "PHPPRO Common Lib",
+            "time": "2014-07-03 10:11:53"
+        }
     ],
     "packages-dev": [
         {
