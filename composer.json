@@ -1,8 +1,9 @@
 {
-    "name": "phppro/php-pipeline-lib",
+    "name": "phppro/pipeline-lib",
     "description": "PHPPRO Pipeline Lib",
     "require": {
-        "phppro/php-common-lib": "dev-master"
+        "phppro/common-lib": "1.*"
+    },
     "require-dev": {
         "phpunit/phpunit": "*"
     },
