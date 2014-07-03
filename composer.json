@@ -15,10 +15,6 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {
-    },
-    "suggests": {
-    },
     "config": {
         "bin-dir": "bin",
         "process-timeout": 900
